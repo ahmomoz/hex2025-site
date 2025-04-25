@@ -1,0 +1,27 @@
+// 藍色圓形按鈕
+.swiper-button-next.swiper-btn-primary,
+.swiper-button-prev.swiper-btn-primary {
+  width: 44px;
+  height: 44px;
+  background-color: $primary;
+  border-radius: 40px;
+  transition: ease .3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.swiper-button-next.swiper-btn-primary::after {
+  font-family: "Material Symbols Outlined";
+  font-size: 30px;
+  color: $white;
+  content: "\e5c8";
+}
+
+.swiper-button-prev.swiper-btn-primary::after {
+  font-family: "Material Symbols Outlined";
+  font-size: 30px;
+  color: $white;
+  content: "\e5c4";
+}

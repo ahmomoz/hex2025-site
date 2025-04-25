@@ -1,0 +1,26 @@
+// 外框黑線圓形 button
+.black-border-circle-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid $black;
+  border-radius: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-outline-black {
+  border: 1px solid $black;
+  padding: 8px 16px;
+  border-radius: 40px;
+
+  &:hover, &:active {
+    color: $white;
+    background-color: $black;
+    border: 1px solid $black;
+  }
+}
+
+.btn-outline-primary {
+  background-color: $white;
+}
