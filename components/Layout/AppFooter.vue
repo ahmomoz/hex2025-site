@@ -1,13 +1,9 @@
-<script setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <footer>
-    <div class="f-center py-6">
-      <p class="fs-6 fw-medium">© 2025 Alyse Wang. All rights reserved.</p>
-    </div>
+  <footer class="f-center bg-white py-6">
+    <p class="fs-6 fw-medium">© 2025 Alyse Wang. All rights reserved.</p>
   </footer>
 </template>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style> 

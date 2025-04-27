@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 interface Article {
   id: number;
   thumbnailUrl: string;

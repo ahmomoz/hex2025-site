@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import Swiper from "swiper";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
