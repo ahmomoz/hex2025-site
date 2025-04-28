@@ -96,7 +96,7 @@ const highlightArticles: HighLightArticleData[] = [
 </script>
 
 <template>
-  <section class="home-blogHighlights-section wrap">
+  <section class="home-blogHighlights-section border-top-bottom wrap">
     <div class="container">
       <h2>部落格精選</h2>
       <div class="service-card-wrap position-relative">
@@ -123,10 +123,6 @@ const highlightArticles: HighLightArticleData[] = [
 </template>
 
 <style lang="scss" scoped>
-.home-blogHighlights-section {
-  border-top: 1px solid $brand-02;
-  border-bottom: 1px solid $brand-02;
-}
 .service-card-wrap {
   margin-top: 24px;
 }

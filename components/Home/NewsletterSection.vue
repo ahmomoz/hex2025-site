@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <section class="home-newsletter-section">
+  <section class="home-newsletter-section border-top-bottom">
     <div class="container-fluid">
       <div class="row">
         <div class="image-wrap col-xxl-6 bg"></div>
@@ -36,11 +36,6 @@
 </template>
 
 <style lang="scss" scoped>
-.home-newsletter-section {
-  border-top: 1px solid $brand-02;
-  border-bottom: 1px solid $brand-02;
-}
-
 .image-wrap {
   background-image: url(/assets/images/backgrounds/bg-3.jpg);
   padding: 300px 0;

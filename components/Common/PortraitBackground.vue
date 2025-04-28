@@ -15,6 +15,11 @@ const { title } = defineProps<{ title: string }>();
 </template>
 
 <style lang="scss" scoped>
+h1 {
+  @include pad {
+    font-size: 52px;
+  }
+}
 .left-hero-wrap {
   background-image: url(/assets/images/backgrounds/bg-1.jpg);
   padding: 300px 0;
@@ -29,7 +34,7 @@ const { title } = defineProps<{ title: string }>();
   padding: 300px 0;
 
   @include lg-pc {
-    padding: 24px 0 200px;
+    padding: 0 0 200px;
   }
 }
 
@@ -37,7 +42,7 @@ const { title } = defineProps<{ title: string }>();
   @include lg-pc {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 24px;
   }
 }

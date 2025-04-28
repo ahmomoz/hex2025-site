@@ -5,15 +5,21 @@
     <div class="container">
       <ul class="w-100 f-center">
         <li class="nav-item">
-          <a
-            class="fs-3 fw-bold nav-link p-0 active"
+          <NuxtLink
+            class="fs-3 fw-bold nav-link underline-hover p-0"
             aria-current="page"
-            href="#"
-            >首頁</a
+            to="/"
           >
+            首頁
+          </NuxtLink>
         </li>
         <li class="nav-item ms-10">
-          <a class="fs-3 fw-bold nav-link p-0" href="#">部落格</a>
+          <NuxtLink
+            class="fs-3 fw-bold nav-link underline-hover p-0"
+            to="/blogs"
+          >
+            部落格
+          </NuxtLink>
         </li>
       </ul>
     </div>

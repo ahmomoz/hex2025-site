@@ -5,11 +5,11 @@ interface PodcastData {
   title: string;
   features: string[];
 }
-const { podcast } = defineProps<{
+const props = defineProps<{
   podcast: PodcastData;
 }>();
 
-const { avatarUrl, title, features } = toRefs(podcast);
+const { avatarUrl, title, features } = props.podcast;
 </script>
 
 <template>

@@ -8,10 +8,11 @@ interface Article {
   content: string;
   date: string;
 }
-const { article } = defineProps<{
+const props = defineProps<{
   article: Article;
 }>();
-const { thumbnailUrl, tag, category, title, content, date } = toRefs(article);
+
+const { thumbnailUrl, tag, category, title, content, date } = props.article;
 </script>
 
 <template>
@@ -36,7 +37,12 @@ const { thumbnailUrl, tag, category, title, content, date } = toRefs(article);
         {{ content }}
       </p>
       <div class="mt-auto pt-4">
-        <a href="#" class="btn btn-outline-black lh-base">閱讀內文</a>
+        <NuxtLink
+          :to="`/blogs/${article.id}`"
+          class="btn btn-outline-black lh-base"
+        >
+          閱讀內文
+        </NuxtLink>
       </div>
     </div>
   </article>

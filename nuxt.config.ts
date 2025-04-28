@@ -13,6 +13,10 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0',
         },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css',
+        },
       ],
       viewport: "width=500, initial-scale=1",
       title: "Alyse Wang - 前端工程師 & 職涯諮詢師",
@@ -44,6 +48,12 @@ export default defineNuxtConfig({
           @import "@/assets/stylesheets/scss/utils/mixin";`,
         },
       },
+    },
+  },
+  router: {
+    options: {
+      linkActiveClass: "active",
+      linkExactActiveClass: "active",
     },
   },
 });

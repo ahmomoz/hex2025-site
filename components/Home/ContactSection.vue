@@ -73,7 +73,7 @@ const mediaList: MediaData[] = [
               <span class="mt-2 mt-sm-0 ms-sm-4">合作洽談</span>
             </div>
             <div class="f-align-center">
-              <span class="material-symbols-outlined">arrow_right_alt</span>
+              <i class="bi bi-arrow-right text-gray-01"></i>
             </div>
           </a>
         </li>
@@ -116,15 +116,6 @@ const mediaList: MediaData[] = [
     @include mobile {
       flex-direction: column;
       align-items: start;
-    }
-  }
-
-  .material-symbols-outlined {
-    font-size: 30px;
-    color: $gray-01;
-
-    @include mobile {
-      margin-top: 8px;
     }
   }
 }

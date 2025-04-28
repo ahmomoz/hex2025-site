@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^3.5.1",
     "bootstrap": "^5.3.3",
     "nuxt": "^3.16.2",
     "sass": "^1.70.0",
