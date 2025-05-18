@@ -25,7 +25,6 @@ const goNext = () => {
   if (props.currentPage < props.totalPages)
     emit('change-page', props.currentPage + 1);
 };
-onMounted(() => console.log("pagination:", props.totalPages));
 </script>
 
 <template>

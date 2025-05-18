@@ -11,13 +11,13 @@ const { _id, thumbnailUrl, tags, category, title, preview, createdAt } =
 </script>
 
 <template>
-  <article class="article-card card bg-transparent rounded-0">
+  <article class="article-card card card-column h-100 bg-transparent rounded-0">
     <img
       :src="thumbnailUrl"
       class="card-img-top rounded-0"
       alt="article-thumbnail"
     />
-    <div class="card-body h-100 p-0">
+    <div class="card-body card-column p-0">
       <time>
         <p class="fw-medium lh-base mt-4">{{ formatDateToYMD(createdAt) }}</p>
       </time>
